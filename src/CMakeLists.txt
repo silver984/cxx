@@ -1,0 +1,2 @@
+file(GLOB PROJ_SRC ${CMAKE_CURRENT_SOURCE_DIR}/*.cc)
+target_sources(${PROJECT_NAME} PRIVATE ${PROJ_SRC})
