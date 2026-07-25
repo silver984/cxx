@@ -1,3 +1,5 @@
+#include <print>
 int main() {
-        return 0;
+	std::println("hello, world!");
+	return 0;
 }
