@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "clang/release",
+      "name": "clang-release",
       "displayName": "Clang Release",
       "inherits": [
         "clang",
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "name": "clang/relwithdeb",
+      "name": "clang-relwithdeb",
       "displayName": "Clang RelWithDeb",
       "inherits": [
         "clang",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "name": "clang/debug",
+      "name": "clang-debug",
       "displayName": "Clang Debug",
       "inherits": [
         "clang",
@@ -42,16 +42,16 @@
   ],
   "buildPresets": [
     {
-      "name": "clang/release",
-      "configurePreset": "clang/release"
+      "name": "clang-release",
+      "configurePreset": "clang-release"
     },
     {
-      "name": "clang/relwithdeb",
-      "configurePreset": "clang/relwithdeb"
+      "name": "clang-relwithdeb",
+      "configurePreset": "clang-relwithdeb"
     },
     {
-      "name": "clang/debug",
-      "configurePreset": "clang/debug"
+      "name": "clang-debug",
+      "configurePreset": "clang-debug"
     }
   ]
 }

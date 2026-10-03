@@ -15,7 +15,7 @@
       }
     },
     {
-      "name": "gnu/release",
+      "name": "gnu-release",
       "displayName": "GNU Release",
       "inherits": [
         "gnu",
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "name": "gnu/relwithdeb",
+      "name": "gnu-relwithdeb",
       "displayName": "GNU RelWithDeb",
       "inherits": [
         "gnu",
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "name": "gnu/debug",
+      "name": "gnu-debug",
       "displayName": "GNU Debug",
       "inherits": [
         "gnu",
@@ -41,16 +41,16 @@
   ],
   "buildPresets": [
     {
-      "name": "gnu/release",
-      "configurePreset": "gnu/release"
+      "name": "gnu-release",
+      "configurePreset": "gnu-release"
     },
     {
-      "name": "gnu/relwithdeb",
-      "configurePreset": "gnu/relwithdeb"
+      "name": "gnu-relwithdeb",
+      "configurePreset": "gnu-relwithdeb"
     },
     {
-      "name": "gnu/debug",
-      "configurePreset": "gnu/debug"
+      "name": "gnu-debug",
+      "configurePreset": "gnu-debug"
     }
   ]
 }
